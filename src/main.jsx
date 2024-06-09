@@ -8,10 +8,12 @@ import ContactMe from "./components/ContactMe";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import RelevantSkills from "./components/RelevantSkills";
+import Error from "./components/Error";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <Error />,
   },
   {
     path: "/article",
