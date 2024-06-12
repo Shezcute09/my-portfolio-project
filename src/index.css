@@ -1,18 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* FONT SIZES
-Body text: 18px
-Headings: 36px
-Subheadings: 32px
-
-Font-Style
-Poppins
-
-font colors
-dark blue background:  white, #ffffff
-
-lighter blue background: slate grey (#3e3d53), Anchor (#41424c)
-
-*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif t;
+    box-sizing: border-box;
+  }

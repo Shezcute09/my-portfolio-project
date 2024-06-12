@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONT SIZES
+Body text: 18px
+Headings: 36px
+Subheadings: 32px
+
+FONT STYLE
+Poppins
+
+FONT COLORS
+  primary: {
+          100: '#FAFEFF',
+          200: '#DFF5FF',
+          300: '#67C6E4',
+          400: '#378CE7',
+          500: '#005570',
+          600: '#5355FF'
+        }
+*/
+
+/* Step 1: Define color variables */
+:root {
+    --primary-color: #5355FF; 
+    --secondary-color: #67C6E4; 
+    --accent-color: #e74c3c; 
+    --background-color: #ecf0f1; 
+    --text-color: #005570; 
+    --border-color: #bdc3c7; 
+    --light-color: #FAFEFF
+}
+
+/* you'll style here using css */
+@layer utilities {
+   .head-text{
+    font-size:  56px;
+    color: var(--primary-color);
+   }
+}
